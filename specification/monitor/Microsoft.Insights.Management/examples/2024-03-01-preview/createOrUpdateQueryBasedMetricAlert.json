@@ -7,6 +7,12 @@
     "parameters": {
       "location": "global",
       "kind": "Query",
+      "identity": {
+        "type": "UserAssigned",
+        "userAssignedIdentities": {
+          "/subscriptions/14ddf0c5-77c5-4b53-84f6-e1fa43ad68f7/resourceGroups/gigtest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myId": {}
+        }
+      },
       "tags": {
         "hidden-link:/subscriptions/b67f7fec-69fc-4974-9099-a26bd6ffeda3/resourceGroups/Rac46PostSwapRG/providers/Microsoft.Web/sites/leoalerttest": "Resource"
       },
@@ -41,6 +47,16 @@
         "name": "dynamiccpu",
         "location": "global",
         "kind": "Query",
+        "identity": {
+          "type": "UserAssigned",
+          "tenantId": "9c14adb6-f0b4-4b26-a090-45e4c571f222",
+          "userAssignedIdentities": {
+            "/subscriptions/14ddf0c5-77c5-4b53-84f6-e1fa43ad68f7/resourceGroups/gigtest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myId": {
+              "clientId": "ef8372b0-d5c7-4c44-9d2b-1ea5c2cb5432",
+              "principalId": "85a35d7d-5f01-454b-9f4a-d23c4938d13f"
+            }
+          }
+        },
         "tags": {
           "hidden-link:/subscriptions/b67f7fec-69fc-4974-9099-a26bd6ffeda3/resourceGroups/Rac46PostSwapRG/providers/Microsoft.Web/sites/leoalerttest": "Resource"
         },
@@ -74,6 +90,16 @@
         "name": "dynamiccpu",
         "location": "global",
         "kind": "Query",
+        "identity": {
+          "type": "UserAssigned",
+          "tenantId": "9c14adb6-f0b4-4b26-a090-45e4c571f222",
+          "userAssignedIdentities": {
+            "/subscriptions/14ddf0c5-77c5-4b53-84f6-e1fa43ad68f7/resourceGroups/gigtest/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myId": {
+              "clientId": "ef8372b0-d5c7-4c44-9d2b-1ea5c2cb5432",
+              "principalId": "85a35d7d-5f01-454b-9f4a-d23c4938d13f"
+            }
+          }
+        },
         "tags": {
           "hidden-link:/subscriptions/b67f7fec-69fc-4974-9099-a26bd6ffeda3/resourceGroups/Rac46PostSwapRG/providers/Microsoft.Web/sites/leoalerttest": "Resource"
         },
